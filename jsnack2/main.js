@@ -5,11 +5,11 @@
 const empty = [];
 
 
-let bool = false;
+
 for (let i=0; i < 6; i++){
     let InserisciNumero = parseInt(prompt('inserisci numero'));
     if(InserisciNumero % 2 === 1){
-        bool = true;
+        
         empty.push(InserisciNumero);
         console.log(empty)
     }
